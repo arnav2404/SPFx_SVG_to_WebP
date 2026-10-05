@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "sv-gto-web-p",
+    "libraryId": "5eed4a6a-d930-4c4e-ad09-f8d04ded2d7c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SVGtoWebP",
+    "solutionShortDescription": "SVGtoWebP description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

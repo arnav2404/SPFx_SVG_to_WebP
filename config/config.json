@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sv-gto-web-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/svGtoWebP/SvGtoWebPWebPart.js",
+          "manifest": "./src/webparts/svGtoWebP/SvGtoWebPWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SvGtoWebPWebPartStrings": "lib/webparts/svGtoWebP/loc/{locale}.js"
+  }
+}

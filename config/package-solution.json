@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sv-gto-web-p-client-side-solution",
+    "id": "5eed4a6a-d930-4c4e-ad09-f8d04ded2d7c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SVGtoWebP description"
+      },
+      "longDescription": {
+        "default": "SVGtoWebP description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sv-gto-web-p Feature",
+        "description": "The feature that activates elements of the sv-gto-web-p solution.",
+        "id": "193a6a11-dc44-4044-ab6b-c61fbead6fae",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sv-gto-web-p.sppkg"
+  }
+}
